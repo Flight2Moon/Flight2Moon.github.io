@@ -134,10 +134,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Flight2Moon"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/ji_heoni/"
-
+      
 # Site Footer
 footer:
   links:
