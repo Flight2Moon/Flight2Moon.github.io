@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Fligth2Moon"
+title                    : "Flight2Moon"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Flight2Moon" #"Your Name"
@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a student interested in Computer Vision."
   location         : "Moon, Mare Nectaris (Sea of ​​Nectaris)"
-  #email            : "resnet164@gmail.com"
+  email            : "kimjiheon2536@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
