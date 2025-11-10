@@ -91,3 +91,36 @@ To github.com:Flight2Moon/Flight2Moon.github.io.git
 Fetching origin
 + git diff --quiet
 + git add -A
+++ date -Is
++ git commit -m 'chore: auto-sync 2025-11-10T16:16:48+09:00'
+[master d78157ad] chore: auto-sync 2025-11-10T16:16:48+09:00
+ 1 file changed, 33 insertions(+)
++ git rev-parse --verify --quiet 'master@{upstream}'
+++ git rev-parse master
++ LOCAL=d78157ade362e94c5ec69d8155a3e0aef9c48694
+++ git rev-parse 'master@{upstream}'
++ REMOTE=923ce99b3fe3bd19cdbbc8445d59858f27a286d4
+++ git merge-base master 'master@{upstream}'
++ BASE=923ce99b3fe3bd19cdbbc8445d59858f27a286d4
++ '[' -n 923ce99b3fe3bd19cdbbc8445d59858f27a286d4 ']'
++ '[' d78157ade362e94c5ec69d8155a3e0aef9c48694 = 923ce99b3fe3bd19cdbbc8445d59858f27a286d4 ']'
++ '[' d78157ade362e94c5ec69d8155a3e0aef9c48694 = 923ce99b3fe3bd19cdbbc8445d59858f27a286d4 ']'
++ '[' 923ce99b3fe3bd19cdbbc8445d59858f27a286d4 = 923ce99b3fe3bd19cdbbc8445d59858f27a286d4 ']'
++ echo 'Ahead → push'
+Ahead → push
++ git push origin master
+To github.com:Flight2Moon/Flight2Moon.github.io.git
+   923ce99b..d78157ad  master -> master
+++ date -Is
++ echo '=== 2025-11-10T16:16:51+09:00 auto-sync done ==='
+=== 2025-11-10T16:16:51+09:00 auto-sync done ===
+++ date -Is
++ echo '=== 2025-11-10T16:20:11+09:00 auto-sync start ==='
+=== 2025-11-10T16:20:11+09:00 auto-sync start ===
++ cd /home/jihoney/workdir/assist_workdir/github_blog/Flight2Moon.github.io
++ git config pull.rebase true
++ git config rebase.autoStash true
++ git fetch --all --prune
+Fetching origin
++ git diff --quiet
++ git add -A
