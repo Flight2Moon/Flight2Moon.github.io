@@ -25,3 +25,36 @@ To github.com:Flight2Moon/Flight2Moon.github.io.git
 Fetching origin
 + git diff --quiet
 + git add -A
+++ date -Is
++ git commit -m 'chore: auto-sync 2025-11-10T16:13:19+09:00'
+[master 744f06ff] chore: auto-sync 2025-11-10T16:13:19+09:00
+ 1 file changed, 16 insertions(+)
++ git rev-parse --verify --quiet 'master@{upstream}'
+++ git rev-parse master
++ LOCAL=744f06ff53b8b73c77eceea844a3578a09fc66f3
+++ git rev-parse 'master@{upstream}'
++ REMOTE=239564ed3671cd3465595e58cd94a83a61c2a330
+++ git merge-base master 'master@{upstream}'
++ BASE=239564ed3671cd3465595e58cd94a83a61c2a330
++ '[' -n 239564ed3671cd3465595e58cd94a83a61c2a330 ']'
++ '[' 744f06ff53b8b73c77eceea844a3578a09fc66f3 = 239564ed3671cd3465595e58cd94a83a61c2a330 ']'
++ '[' 744f06ff53b8b73c77eceea844a3578a09fc66f3 = 239564ed3671cd3465595e58cd94a83a61c2a330 ']'
++ '[' 239564ed3671cd3465595e58cd94a83a61c2a330 = 239564ed3671cd3465595e58cd94a83a61c2a330 ']'
++ echo 'Local ahead → push'
+Local ahead → push
++ git push origin master
+To github.com:Flight2Moon/Flight2Moon.github.io.git
+   239564ed..744f06ff  master -> master
+++ date -Is
++ echo '=== 2025-11-10T16:13:22+09:00 auto-sync done ==='
+=== 2025-11-10T16:13:22+09:00 auto-sync done ===
+++ date -Is
++ echo '=== 2025-11-10T16:16:00+09:00 auto-sync start ==='
+=== 2025-11-10T16:16:00+09:00 auto-sync start ===
++ cd /home/jihoney/workdir/assist_workdir/github_blog/Flight2Moon.github.io
++ git config pull.rebase true
++ git config rebase.autoStash true
++ git fetch --all --prune
+Fetching origin
++ git diff --quiet
++ git add -A
