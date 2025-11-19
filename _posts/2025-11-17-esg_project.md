@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: "첫 글 제목"
 excerpt: "리스트에 보일 한 줄 요약"
 date: 2025-11-17 21:00:00 +0900
