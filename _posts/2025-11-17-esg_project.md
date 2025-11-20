@@ -14,8 +14,6 @@ math: true
 #   teaser: /assets/images/teasers/my-teaser.jpg   # 목록 썸네일
 ---
 
-# LLM 기반 명칭 정규화 모델을 통한 주주 구조 및 친족 지분 분석 시스템 설계
-
 ## 1. 프로젝트 소개 및 개요
 
 ### 소개
